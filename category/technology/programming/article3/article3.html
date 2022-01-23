@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>1minute CSSってどんな言語？CSSの特徴や構造を1分で分かりやすく解説!</title>
+    <meta name="description" content="【1minute】CSSはWEB上の要素を装飾・デザインできる言語です。HTMLと一緒に学んで自由にWEB上で表現してみましょう!">
+    <link rel="shortcut icon" href="../../../../images/favicon_1minute.ico">
+    <link rel="stylesheet" href="../../../../css/common.css">
+    <link rel="stylesheet" href="../../../../css/common_article.css">
+    <link rel="stylesheet" href="kiji3.css">
+    <link rel="stylesheet" href="../../../../css/dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://hokuto-arai.github.io/media_1minute/category/technology/programming/article3/images/pic3.jpg">
+
+</head>
+<body>
+    
+    <div class="header">
+        <h2><a href="../../../../index.html">1minute</a></h2>
+    </div>
+    <div id="wrapper">
+        <p class="btn-gnavi">
+            <span></span>
+            <span></span>
+            <span></span>
+        </p>
+        <nav id="global-navi">
+            <ul class="menu">
+                <p class="category-p">カテゴリー</p>
+            <div class="w1"> 
+                <li id="s1">ビジネス</li> 
+                <p class="c1"><a href="../../../business/business.html"><i class="fas fa-caret-square-right"></i>ビジネスすべて</a></p>
+            </div>
+            
+            <div class="w2"> 
+                <li id="s2">エンタメ</li>
+                <p class="c2"><a href="../../../entame/entame.html"><i class="fas fa-caret-square-right"></i>エンタメすべて</a></p>
+                <p class="c2"><a href="../../../entame/artist/artist.html"><i class="fas fa-angle-right"></i>アーティスト</a></p>
+                <p class="c2"><a href="../../../entame/YouTube/YoTube.html"><i class="fas fa-angle-right"></i>YouTube</a></p>
+                <p class="c2"><a href="../../../entame/TikTok/TikTok.html"><i class="fas fa-angle-right"></i>Tik Tok</a></p>
+            </div> 
+            
+            <div class="w3"> 
+                <li id="s3">テクノロジー</li>
+                <p class="c3"><a href="../../technology.html"><i class="fas fa-caret-square-right"></i>テクノロジーすべて</a></p>
+                <p class="c3"><a href="../programming.html"><i class="fas fa-angle-right"></i>プログラミング</a></p>
+            </div> 
+                
+            <div class="w4">
+                <li id="s4">ビューティー</li>
+                <p class="c4"><a href="../../../beauty/beauty.html"><i class="fas fa-caret-square-right"></i>ビューティーすべて</a></p>
+                <p class="c4"><a href="../../../beauty/kankokucosme/kankokucosme.html"><i class="fas fa-angle-right"></i>韓国コスメ</a></p>
+            </div>
+            </ul>
+        </nav>
+        </div>
+    
+<article>
+    <nav id="breadcrumb">
+        <ol>
+            <li class="breadcrumb-item"><a href="../../../../index.html">ホーム</a></li>
+            <li class="breadcrumb-item"><a href="../../../category.html">カテゴリー</a></li>
+            <li class="breadcrumb-item"><a href="../../technology.html">テクノロジー</a></li>
+            <li class="breadcrumb-item active"><a href="../programming.html">プログラミング</a></li>
+        </ol>
+        </nav>
+    <div class="kiji3">
+        <div class="discri-all">
+        <div class="discri">
+            <p class="time">2011.11.10</p>
+            <br>
+            <h2 class="title">CSSってどんな言語？CSSの特徴や構造を1分で分かりやすく解説!</h2>
+            <br>
+            <a href="../programming.html" class="category">プログラミング</a>
+        </div>
+            <img src="images/pic3.jpg" alt="" class="pic3">
+        </div>
+        <div class="index">
+            <h2>index</h2>
+            <hr>
+            <p><a href="#headline1">1.CSSとは？</a></p>
+            
+            <p><a href="#headline2">2.CSSの構造</a></p>
+            
+            <p><a href="#headline3">3.CSSでよく使うタグ</a></p>
+            
+            <p><a href="#headline4">4.CSSの書き方</a></p>
+            <hr>
+        </div>
+        <div class="container">
+            <h2 id="headline1">1.CSSとは？</h2>
+            <p>CSSとは「Cascading Style Sheets 」の略で、タグなどの各要素にプロパティという値を割り当てることで文書の書式やページレイアウトをデザインすることができる言語です。
+            <br>つまり文字の色を変えたり、要素の大きさなどを変えることが出来ます。</p>
+
+            <h2 id="headline2">2.CSSの構造</h2>
+            <p>CSSは、1.セレクタ 2.プロパティ、3.値の3つで構成されており、プロパティと値を含めた部分をスタイルと呼びます。
+            <br>下記の場合、「h1」がセレクタ、「color」がプロパティ、「red」が値で、「color : red ;」がスタイルになります。
+            <br><br>この記述の場合、h1要素を赤くするといった意味になります。</p>
+<pre>
+<code>
+h1 {
+    color : red ;
+}
+</code>
+</pre>
+            <p>又、セレクタを複数指定したい場合はタグを「,」カンマでくぎります</p>
+<pre>
+<code>
+h1 , h2, h3{
+    color : red ;
+}
+</code>
+</pre>
+            <h2 id="headline3">3.CSSでよく使うタグ</h2>
+            <p>
+            ・幅と高さを指定する
+            <br>
+             width : サイズ
+             <br>
+             height : サイズ 
+             <br> 
+            (width=幅、height=高さ)
+
+            <br><br>    
+            ・フォントのサイズを指定する
+            <br>
+            font-size : サイズ
+
+             <br><br>
+             ・行揃えを指定する
+             <br>
+            text-align : 行揃え位置
+             <br>
+             (left=左揃え、center=中央揃え、right=右揃え)
+
+             <br><br>
+          ・色を指定する
+           <br>
+            color : 
+
+            <br><br>
+            ・要素の外枠の余白を設定する
+            <br>
+             margin-top : サイズ
+             <br> 
+             margin-bottom : サイズ
+             <br>
+             margin-left : サイズ
+             <br>
+             margin-right : サイズ
+             <br>
+            (top=上部、bottom=下部、left=左、right=右)
+
+            <br><br>
+            ・要素の内側の余白を設定する
+            <br>
+            padding-top : サイズ 
+            <br>
+            padding-bottom : サイズ
+           <br>
+            padding-left : サイズ
+            <br>
+            padding-right : サイズ
+            <br>
+            (top=上部、bottom=下部、left=左、right=右)
+            </p>
+
+            <h2 id="headline4">4.CSSの書き方</h2>
+            <p>まず、HTMLにCSSを適用させるにはheadタグ内にCSSファイルを読み込ませる必要があります。
+            <br>読み込ませ方は、下記のようにheadタグ内に&lt;link rel=&quot;stylesheet&quot; href=&quot;URL&quot;&gt;という形で記述します。このURLというのはCSSファイルのディレクトリになります。
+            <br><br>
+            これで、CSSを書く準備が整いました。
+            <br>例として、h1要素を赤色にしてみましょう。
+            <br><br>
+            まずCSSファイルを開いてください。
+            </p>
+
+<pre>
+<code>
+ &lt;!DOCTYPE html&gt;
+ &lt;html lang=&quot;ja&quot;&gt;
+   &lt;head&gt;
+     &lt;meta charset=&quot;UTF-8&quot;&gt;
+     &lt;link rel=&quot;stylesheet&quot; href=&quot;example.css&quot;&gt;
+     &lt;title&gt;CSSの書き方&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+   &lt;h1&gt;h1要素を赤色にする&lt;/h1&gt;
+   &lt;/body&gt;
+ &lt;/html&gt;
+</code>
+</pre>
+
+            <p>そしたら、このようにスタイルを{ }で囲って、プロパティと値の間にはコロンを入れます。そして値の末尾にセミコロンを入れましょう。</p>
+
+<pre>
+<code>
+h1{
+color : red ;
+}
+</code>
+</pre>
+
+            <p>これでブラウザで確認するとh1要素が赤くなりました。
+                <img src="images/article3-example1.png" alt="" class="pic-example1">
+            <br><br>
+            ※プログラミングをする際はエディターを使用するようにしましょう。
+            </p>
+
+            <hr>
+
+            <p>以上、いかがでしたか？
+            <br>CSSはwebサイトをデザインする上で必須の言語です。 又、CSSだけで補えない部分はJquery などのJavaScriptライブラリを使用するとリッチなデザインに仕上がるため、慣れてきたらJquery も学習してみましょう
+            </p>
+
+            <p class="keyword">この記事のキーワード
+                <br>#CSS #スタイル #プロパティ #セレクタ #値 #Jquery</p>
+
+        </div>
+
+        <div class="share-btn">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-url="https://hokuto-arai.github.io/media_1minute/category/technology/programming/article3/article3.html" data-size="small" data-text="1分でZ世代のトレンドが分かるメディアサイト!"  data-hashtags="1minute #Z世代 #メディアサイト">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+            <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v12.0" nonce="uqd5gdxv"></script>
+<div class="fb-share-button" data-href="https://hokuto-arai.github.io/media_1minute/category/technology/programming/article3/article3.html" data-layout="button" data-size="small" ><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhokuto-arai.github.io%2Fmedia_1minute%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェア</a></div>
+
+<a data-pin-do="buttonBookmark" data-pin-lang="ja" href="https://jp.pinterest.com/pin/create/button/"></a>
+</div>
+
+        </div>
+
+</article>
+
+
+
+<div class="footer">
+    <p class="right"><a href="">&copy; 1minute 2021</a></p>
+    <p class="left">
+    <a href="../../../../about/about.html">1minuteとは</a>
+    <br><a href="../../../../category/category.html">カテゴリー</a>
+    <br><a href="../../../../contact/contact.html">お問い合わせ</a>
+    </p>
+</div>
+
+
+<script src="../../../../js/jquery-3.6.0.min.js"></script>
+<script src="../../../../js/highlight.min.js"></script>
+<script src="../../../../js/index.js"></script>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+</html>

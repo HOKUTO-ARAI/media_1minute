@@ -1,0 +1,570 @@
+article{
+    padding-top: 170px;
+    padding-bottom: 100px;
+    background-color: #F7F7F7;
+}
+.contact{
+    position: relative;
+    width: 80%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px  darkgray;
+}
+.form{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+#userName,#email{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 5%;
+   
+}
+#content{
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+}
+.p-form__btn{
+    margin-top: 10%;
+}
+.form-btn{
+    width: 300px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;  
+    background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.form-btn:hover{
+    background-image: linear-gradient(45deg, #709dff 50%, #b0c9ff 100%);
+}
+
+
+
+
+
+@media (max-width: 1500px) {
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1100px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2.5rem; 
+    }
+    #userName,#email{
+        width: 350px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+}
+
+
+ @media (max-width: 1200px) {
+    article{
+        padding-top: 190px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1100px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2.5rem; 
+    }
+    #userName,#email{
+        width: 350px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+ }
+
+ @media (min-width:900px) and (max-width: 1025px) {
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1100px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2.5rem; 
+    }
+    #userName,#email{
+        width: 350px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+
+ }
+
+ @media (orientation:landscape) and 
+ (max-width:1025px){
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1100px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2.5rem; 
+    }
+    #userName,#email{
+        width: 350px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+ }
+
+ @media (max-width: 900px) {
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1100px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2.5rem; 
+    }
+    #userName,#email{
+        width: 350px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+ }
+
+ @media (orientation:landscape) and 
+ (max-width:900px){
+    article{
+        padding-top: 180px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1100px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2.5rem; 
+    }
+    #userName,#email{
+        width: 350px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+ }
+
+ @media (max-width: 769px) {
+    article{
+        padding-top: 220px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1000px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2.5rem; 
+    }
+    #userName,#email{
+        width: 320px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+ }
+
+ @media (orientation:landscape) and 
+ (max-width:769px){
+    article{
+        padding-top: 180px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1000px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 2rem; 
+    }
+    #userName,#email{
+        width: 320px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+ }
+
+ @media (max-width: 700px) {
+    article{
+        padding-top: 165px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 1000px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 1.8rem; 
+    }
+    #userName,#email{
+        width: 320px;
+        height: 30px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 400px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 2rem;
+    }
+ }
+
+ @media (max-width: 599px) {
+    article{
+        padding-top: 155px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 700px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 1.5rem; 
+    }
+    #userName,#email{
+        width: 250px;
+        height: 20px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 300px;
+        height: 150px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 260px;
+        height: 60px;
+        border-radius: 25px;
+        font-size: 1.5rem;
+    }
+ }
+
+ @media (max-width: 481px) {
+    article{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 80%;
+        height: 700px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 1.5rem; 
+    }
+    #userName,#email{
+        width: 200px;
+        height: 20px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 250px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 230px;
+        height: 45px;
+        border-radius: 25px;
+        font-size: 1.3rem;
+    }
+ }
+
+ @media (max-width: 416px) {
+    article{
+        padding-top: 170px;
+        padding-bottom: 100px;
+    }
+    .contact{
+        width: 100%;
+        height: 550px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 1.4rem; 
+    }
+    #userName,#email{
+        width: 180px;
+        height: 20px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 240px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 230px;
+        height: 45px;
+        border-radius: 25px;
+        font-size: 1.3rem;
+    }
+ }
+
+ @media (max-width: 376px) {
+    article{
+        padding-top: 115px;
+        padding-bottom: 50px;
+    }
+    .contact{
+        width: 100%;
+        height: 560px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 1.4rem; 
+    }
+    #userName,#email{
+        width: 180px;
+        height: 20px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 240px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 230px;
+        height: 45px;
+        border-radius: 25px;
+        font-size: 1.3rem;
+    }
+ }
+
+ @media (max-width: 321px) {
+    article{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .contact{
+        width: 100%;
+        height: 500px;
+    }
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 1.4rem; 
+    }
+    #userName,#email{
+        width: 180px;
+        height: 20px;
+        margin-bottom: 5%;  
+    }
+    #content{
+        width: 240px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .p-form__btn{
+        margin-top: 10%;
+    }
+    .form-btn{
+        width: 230px;
+        height: 45px;
+        border-radius: 25px;
+        font-size: 1.3rem;
+    }
+ }

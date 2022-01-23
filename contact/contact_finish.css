@@ -1,0 +1,500 @@
+article{
+    padding-top: 170px;
+    padding-bottom: 100px;
+    background-color: #F7F7F7;
+}
+.contact-finish{
+    position: relative;
+    width: 80%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px  darkgray;
+    text-align: center;
+}
+.contact-finish h2{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 100%;
+    font-size: 5rem;
+    background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+}
+.contact-finish p{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -60%); 
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+}
+.contact-finish a{
+    font-size: 1.5rem;
+}
+.p2{
+   margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1500px) {
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 80%;
+        height: 800px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1.5rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+}
+
+
+ @media (max-width: 1200px) {
+    article{
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 80%;
+        height: 720px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1.5rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (min-width:900px) and (max-width: 1025px) {
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 80%;
+        height: 800px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1.8rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (orientation:landscape) and 
+ (max-width:1025px){
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 80%;
+        height: 600px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1.5rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (max-width: 900px) {
+    article{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 80%;
+        height: 700px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1..8rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (orientation:landscape) and 
+ (max-width:900px){
+    article{
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 80%;
+        height: 700px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1.5rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (max-width: 769px) {
+    article{
+        padding-top: 220px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1.8rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (orientation:landscape) and 
+ (max-width:769px){
+    article{
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 3.2rem;
+    }
+    .contact-finish a{
+        font-size: 1.8rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (max-width: 700px) {
+    article{
+        padding-top: 165px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 4rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 2.8rem;
+    }
+    .contact-finish a{
+        font-size: 1.5rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (max-width: 599px) {
+    article{
+        padding-top: 105px;
+        padding-bottom: 50px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 3rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 2.3rem;
+    }
+    .contact-finish a{
+        font-size: 1.3rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (max-width: 481px) {
+    article{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 3rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:60%;
+        left: 50%;
+        transform: translate(-50%, -60%); 
+        font-size: 2.3rem;
+    }
+    .contact-finish a{
+        font-size: 1.3rem;
+    }
+    .p2{
+       margin-top: 150px;
+    }
+ }
+
+ @media (max-width: 416px) {
+    article{
+        padding-top: 200px;
+        padding-bottom: 80px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 2.8rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        font-size: 2rem;
+    }
+    .contact-finish a{
+        font-size: 1.3rem;
+    }
+    .p2{
+       margin-top: 200px;
+    }
+ }
+
+ @media (max-width: 376px) {
+    article{
+        padding-top: 165px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 2.8rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        font-size: 1.8rem;
+    }
+    .contact-finish a{
+        font-size: 1.3rem;
+    }
+    .p2{
+       margin-top: 180px;
+    }
+ }
+
+ @media (max-width: 321px) {
+    article{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .contact-finish{
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+    .contact-finish h2{
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        font-size: 2.5rem;
+    }
+    .contact-finish p{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        font-size: 1.5rem;
+    }
+    .contact-finish a{
+        font-size: 1.2rem;
+    }
+    .p2{
+       margin-top: 150px;
+    }
+ }

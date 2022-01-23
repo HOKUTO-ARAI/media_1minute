@@ -1,0 +1,575 @@
+article{
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+#breadcrumb li{
+    font-size: 1.6rem;
+}
+.time{
+    font-size:1.6rem;
+}
+
+.title{
+    font-size: 2.4rem;
+}
+.category{
+    font-size: 1.6rem;
+}
+.index h2{
+    font-size: 2.4rem;
+}
+.index p{
+    font-size: 1.8rem;
+}
+.container h2:first-letter {
+    font-size: 4rem;
+}
+.container h2{
+    font-size: 2.4rem;
+}
+.container p{
+    font-size: 2rem;
+}
+code{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.share-btn{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.twitter-share-button{
+    margin-right: 10px;
+}
+
+.fb-share-button{
+    margin-right: 10px;
+}
+
+
+
+@media (max-width: 1500px) {
+    article{
+        padding-top: 130px;
+    }
+    #breadcrumb li{
+        font-size: 2rem;
+    }
+    .time{
+        font-size:2rem;
+    }
+    
+    .title{
+        font-size: 3rem;
+    }
+    .category{
+        font-size: 2rem;
+    }
+    .index h2{
+        font-size: 3rem;
+    }
+    .index p{
+        font-size: 2.4rem;
+    }
+    .container h2:first-letter {
+        font-size: 5rem;
+    }
+    .container h2{
+        font-size: 3rem;
+    }
+    .container p{
+        font-size: 2.4rem;
+    }
+    code{
+        font-size: 2.4rem;
+    }
+   }
+
+@media (max-width: 1200px) {
+    article{
+        padding-top: 90px;
+    }
+    #breadcrumb li{
+        font-size: 1.6rem;
+    }
+    .time{
+        font-size:1.6rem;
+    }
+    
+    .title{
+        font-size: 2.4rem;
+    }
+    .category{
+        font-size: 1.6rem;
+    }
+    .index h2{
+        font-size: 3rem;
+    }
+    .index p{
+        font-size: 2rem;
+    }
+    .container h2:first-letter {
+        font-size: 5rem;
+    }
+    .container h2{
+        font-size: 2.4rem;
+    }
+    .container p{
+        font-size: 2rem;
+    }
+    code{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:900px) and (max-width: 1025px) {
+    article{ 
+        padding-top: 130px;
+    }
+    #breadcrumb li{
+        font-size: 2rem;
+    }
+    .time{
+        font-size:2.5rem;
+    }
+    
+    .title{
+        font-size: 3.5rem;
+    }
+    .category{
+        font-size: 2.5rem;
+    }
+    .index h2{
+        font-size: 4rem;
+    }
+    .index p{
+        font-size: 3rem;
+    }
+    .container h2:first-letter {
+        font-size: 6rem;
+    }
+    .container h2{
+        font-size: 3.5rem;
+    }
+    .container p{
+        font-size: 3rem;
+    }
+    code{
+        font-size: 3rem;
+    }
+}
+
+@media (orientation:landscape) and 
+    (max-width:1025px){
+        article{ 
+            padding-top: 130px;
+        }
+        #breadcrumb li{
+            font-size: 1.6rem;
+        }
+        .time{
+            font-size:2.5rem;
+        }
+        
+        .title{
+            font-size: 3.5rem;
+        }
+        .category{
+            font-size: 2.5rem;
+        }
+        .index h2{
+            font-size: 4rem;
+        }
+        .index p{
+            font-size: 3rem;
+        }
+        .container h2:first-letter {
+            font-size: 6rem;
+        }
+        .container h2{
+            font-size: 3.5rem;
+        }
+        .container p{
+            font-size: 3rem;
+        }
+        code{
+            font-size: 3rem;
+        }
+    }
+
+@media (max-width: 900px) {
+    article{
+        padding-top: 130px;
+    }
+    #breadcrumb li{
+        font-size: 1.6rem;
+    }
+    .time{
+        font-size:1.6rem;
+    }
+    
+    .title{
+        font-size: 2.4rem;
+    }
+    .category{
+        font-size: 1.6rem;
+    }
+    .index h2{
+        font-size: 2.4rem;
+    }
+    .index p{
+        font-size: 2rem;
+    }
+    .container h2:first-letter {
+        font-size: 4rem;
+    }
+    .container h2{
+        font-size: 2.4rem;
+    }
+    .container p{
+        font-size: 2rem;
+    }
+    code{
+        font-size: 2rem;
+    }
+}
+
+@media (orientation:landscape) and (max-width:900px){
+        article{
+            padding-top: 80px;
+        }
+        #breadcrumb li{
+            font-size: 1.2rem;
+        }
+        .time{
+            font-size:1.6rem;
+        }
+        
+        .title{
+            font-size: 2.3rem;
+        }
+        .category{
+            font-size: 1.6rem;
+        }
+        .index h2{
+            font-size: 2.5rem;
+        }
+        .index p{
+            font-size: 2rem;
+        }
+        .container h2:first-letter {
+            font-size: 3rem;
+        }
+        .container h2{
+            font-size: 2.5rem;
+        }
+        .container p{
+            font-size: 2rem;
+        }
+        code{
+            font-size: 2rem;
+        }
+     }
+
+
+     @media (max-width: 769px) {
+        article{
+            padding-top: 120px;
+        }
+        #breadcrumb li{
+            font-size: 1.6rem;
+        }
+        .time{
+            font-size:2.3rem;
+        }
+        
+        .title{
+            font-size: 2.7rem;
+        }
+        .category{
+            font-size: 2.3rem;
+        }
+        .index h2{
+            font-size: 3rem;
+        }
+        .index p{
+            font-size: 2.5rem;
+        }
+        .container h2:first-letter {
+            font-size: 6rem;
+        }
+        .container h2{
+            font-size: 3rem;
+        }
+        .container p{
+            font-size: 2.7rem;
+        }
+        code{
+            font-size: 2.7rem;
+        }
+     }
+     @media (orientation:landscape) and
+(max-width: 769px) {
+    article{
+        padding-top: 80px;
+    }
+    #breadcrumb li{
+        font-size: 1.2rem;
+    }
+    .time{
+        font-size:1.4rem;
+    }
+    
+    .title{
+        font-size: 1.8rem;
+    }
+    .category{
+        font-size: 1.4rem;
+    }
+    .index h2{
+        font-size: 2rem;
+    }
+    .index p{
+        font-size: 1.5rem;
+    }
+    .container h2:first-letter {
+        font-size: 3rem;
+    }
+    .container h2{
+        font-size: 1.6rem;
+    }
+    .container p{
+        font-size: 1.5rem;
+    }
+    code{
+        font-size: 1.5rem;
+    }
+}
+
+
+     @media (max-width: 700px) {
+        article{
+            padding-top: 65px;
+        }
+        #breadcrumb li{
+            font-size: 1rem;
+        }
+        .time{
+            font-size:1.4rem;
+        }
+        
+        .title{
+            font-size: 1.8rem;
+        }
+        .category{
+            font-size: 1.4rem;
+        }
+        .index h2{
+            font-size: 2rem;
+        }
+        .index p{
+            font-size: 1.4rem;
+        }
+        .container h2:first-letter {
+            font-size: 3rem;
+        }
+        .container h2{
+            font-size: 1.6rem;
+        }
+        .container p{
+            font-size: 1.5rem;
+        }
+        code{
+            font-size: 1.5rem;
+        }
+     }
+
+     @media (max-width: 599px) {
+        article{
+            padding-top: 55px;
+        }
+        #breadcrumb li{
+            font-size: 1rem;
+        }
+        .time{
+            font-size:1.4rem;
+        }
+        
+        .title{
+            font-size: 1.6rem;
+        }
+        .category{
+            font-size: 1.4rem;
+        }
+        .index h2{
+            font-size: 2rem;
+        }
+        .index p{
+            font-size: 1.4rem;
+        }
+        .container h2:first-letter {
+            font-size: 3rem;
+        }
+        .container h2{
+            font-size: 1.6rem;
+        }
+        .container p{
+            font-size: 1.5rem;
+        }
+        code{
+            font-size: 1.5rem;
+        }
+     }
+
+     @media (max-width: 481px) {
+        article{
+            padding-top: 50px;
+        }
+        #breadcrumb li{
+            font-size: 1rem;
+        }
+        .time{
+            font-size:1.4rem;
+        }
+        
+        .title{
+            font-size: 1.6rem;
+        }
+        .category{
+            font-size: 1.4rem;
+        }
+        .index h2{
+            font-size: 2rem;
+        }
+        .index p{
+            font-size: 1.4rem;
+        }
+        .container h2:first-letter {
+            font-size: 3rem;
+        }
+        .container h2{
+            font-size: 1.6rem;
+        }
+        .container p{
+            font-size: 1.5rem;
+        }
+        code{
+            font-size: 1.5rem;
+        }
+     }
+
+     @media (max-width: 416px) {
+        article{
+            padding-top: 70px;
+        }
+        #breadcrumb li{
+            font-size: 1rem;
+        }
+        .time{
+            font-size:1.4rem;
+        }
+        
+        .title{
+            font-size: 1.6rem;
+        }
+        .category{
+            font-size: 1.4rem;
+        }
+        .index h2{
+            font-size: 2rem;
+        }
+        .index p{
+            font-size: 1.4rem;
+        }
+        .container h2:first-letter {
+            font-size: 3rem;
+        }
+        .container h2{
+            font-size: 1.6rem;
+        }
+        .container p{
+            font-size: 1.5rem;
+        }
+        code{
+            font-size: 1.5rem;
+        }
+     }
+
+     @media (max-width: 376px) {
+        article{
+            padding-top: 65px;
+        }
+        #breadcrumb li{
+            font-size: 1rem;
+        }
+        .time{
+            font-size:1.2rem;
+        }
+        
+        .title{
+            font-size: 1.5rem;
+        }
+        .category{
+            font-size: 1.2rem;
+        }
+        .index h2{
+            font-size: 1.8rem;
+        }
+        .index p{
+            font-size: 1.3rem;
+        }
+        .container h2:first-letter {
+            font-size: 2.5rem;
+        }
+        .container h2{
+            font-size: 1.8rem;
+        }
+        .container p{
+            font-size: 1.4rem;
+        }
+        code{
+            font-size: 1.4rem;
+        }
+     }
+
+     @media (max-width: 321px) {
+        article{
+            padding-top: 50px;
+        }
+        #breadcrumb li{
+            font-size: 1rem;
+        }
+        .time{
+            font-size:1rem;
+        }
+        
+        .title{
+            font-size: 1.3rem;
+        }
+        .category{
+            font-size: 1rem;
+        }
+        .index h2{
+            font-size: 1.6rem;
+        }
+        .index p{
+            font-size: 1.2rem;
+        }
+        .container h2:first-letter {
+            font-size: 2.5rem;
+        }
+        .container h2{
+            font-size: 1.5rem;
+        }
+        .container p{
+            font-size: 1.3rem;
+        }
+        code{
+            font-size: 1.3rem;
+        }
+     }

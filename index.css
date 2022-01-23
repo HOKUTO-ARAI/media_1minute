@@ -1,0 +1,11 @@
+.card-first{
+    margin-top: 150px;
+}
+
+ @media (max-width: 416px) {
+    .card-first{
+        margin-top: 100px;
+    }
+ }
+
+ 

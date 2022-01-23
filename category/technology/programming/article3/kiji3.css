@@ -1,0 +1,288 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,sans-serif;
+    color: #F7F7F7;
+}
+p{
+    color: black;
+}
+article{
+    position: relative;
+    background-color: #F7F7F7;
+}
+#breadcrumb ol{
+    margin: 0;
+    padding: 0;
+}
+#breadcrumb li a{
+    display: inline-block;
+    padding: 5px;
+    color: #000000;
+}
+#bread li a:hover{
+    background-color: #eeeeee;
+}
+#breadcrumb ol:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#breadcrumb li{
+    float: left;
+    width: auto;
+}
+#breadcrumb li:after{
+    content: '\003e';
+    color: #888888;
+}
+.kiji3{
+    width: 80%;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px  darkgray;
+}
+.discri-all{
+    text-align: center;
+}
+.discri{
+    margin-bottom: 3%;
+}
+.discri h2,.discri p{
+    color: black;
+}
+.pic3{
+    width: 80%;
+}
+.index{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: black;
+}
+.index p{
+    font-weight: bold;
+    line-height: 50px;
+}
+.index a{
+    color: black;
+}
+.index hr{
+    width: 89%;
+    height: 4px;
+    background-color:lightsteelblue;
+    border: none;
+}
+.container h2 {
+    position: relative;
+    margin-top: 5%;
+    padding: 0.5em;
+    color: black;
+  }
+ .container h2:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 20px transparent;
+    border-bottom: solid 15px #b0c9ff;
+  }
+ .container h2:after {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    left: 10px;
+    width: 80%;
+    border-bottom: solid 5px #b0c9ff;
+  }
+ .container h2:first-letter {
+    color: #709dff;
+  }
+  .container p{
+      font-weight: normal;
+      line-height: 50px;
+  }
+.pic-example1{
+    width: 80%;
+}
+  .container hr{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%
+  }
+  .keyword{
+    margin-top: 10%;
+   }
+
+   @media (min-width:320px) and (max-width: 1200px) {
+    #breadcrumb li{
+        float: left;
+        width: auto;
+    }
+    .kiji3{
+        width: 100%;
+    }
+     .pic3{
+         width:100%
+     }
+     .container h2{
+        margin-bottom: 30px;
+    }
+ }
+
+
+   @media (max-width: 1500px) {
+    .pic-example1{
+        width: 100%;
+    }
+   }
+
+
+
+   @media (max-width: 1200px) {
+    .pic-example1{
+        width: 100%;
+    }
+   }
+
+
+   @media (min-width:900px) and (max-width: 1025px) {
+    .index p{
+        line-height: 70px;
+    }
+    .container p{
+        line-height: 60px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+   @media (max-width: 900px) {
+    .container p{
+        line-height: 60px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+ @media (orientation:landscape) and 
+    (max-width:900px){
+
+    }
+
+
+
+   @media  (max-width: 769px) {
+    .container p{ 
+        line-height: 60px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+
+
+
+@media (orientation:landscape) and
+(max-width: 769px) {
+
+   
+    .pic-example1{
+        width: 100%;
+    }
+}
+
+
+
+ @media (max-width: 700px) {
+    .container p{
+        line-height: 35px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+
+
+
+
+
+
+
+
+ @media (max-width: 599px) {
+    .container p{
+        line-height: 35px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+
+ @media (max-width: 481px) {
+    code{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+
+   @media (max-width: 416px) {
+    .container p{  
+        line-height: 35px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+
+
+
+
+   @media (max-width: 376px) {
+
+    .container p{ 
+        line-height: 35px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+ }
+
+
+
+
+
+
+
+   @media (max-width: 321px) {
+
+    .container p{
+        line-height: 30px;
+    }
+    .pic-example1{
+        width: 100%;
+    }
+  
+ }
